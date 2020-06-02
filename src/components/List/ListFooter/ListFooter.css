@@ -1,0 +1,9 @@
+.list-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #757575;
+}
