@@ -1,0 +1,12 @@
+.list-card-footer-actions {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
+.list-card-footer {
+    height: 60px;
+}
+.card-footer {
+    background: snow;
+    color: red;
+}

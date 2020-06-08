@@ -29,6 +29,7 @@
     max-width: 220px;
     min-width: 220px;
     margin: 20px;
+    background: tommato;
 }
 .list-card-footer {
     width: 100%;
@@ -38,9 +39,4 @@
     font-size: 12px;
     font-weight: bold;
     color: #757575;
-}
-.list-card-footer-actions {
-    display: flex;
-    width: 50px;
-    justify-content: space-between;
 }

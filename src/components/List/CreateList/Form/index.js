@@ -23,7 +23,6 @@ class Form extends Component {
         } else {
             this.props.addProduct({ product, quantity, unit, price }, list);
             this.setState({
-                list: "",
                 product: "",
                 quantity: "",
                 unit: "",
@@ -33,7 +32,7 @@ class Form extends Component {
         }
     };
     render() {
-        const units = ["Kg", "Lt", "Un"];
+        const units = ["Kilos", "Litros", "Unidades"];
         return (
             <form className="form-container">
                 <div className="form-row">

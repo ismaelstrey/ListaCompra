@@ -1,11 +1,11 @@
 import React from "react";
 import "./ListFooter.css";
 
-const ListFooter = ({ date, price }) => {
+const ListFooter = ({ date, price, total }) => {
     return (
         <div className="list-footer">
             <p>{date}</p>
-            <p>R$ {price}</p>
+            <p>R$ {total}</p>
         </div>
     );
 };
